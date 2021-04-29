@@ -1,9 +1,21 @@
+
 body {
   background-color: Hotpink;
 }
 h1 {
-  color: pink;
+  color: white;
 }
 p {
-  color: black;
+  color: white;
+}
+
+
+
+
+.box1 {
+  background-color: pink;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
 }
