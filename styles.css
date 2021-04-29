@@ -4,9 +4,11 @@ body {
 }
 h1 {
   color: white;
+  text-align:center;">centered heading
 }
 h2 {
-  color: white;
+  color: white
+  text-align:center;">centered heading
 }
 p {
   color: white;
