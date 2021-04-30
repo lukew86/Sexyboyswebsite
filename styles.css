@@ -8,7 +8,7 @@ body {
   background: white;
 }
 
-header {
+.header {
   background-color: deeppink;
   padding: 30px;
   text-align: center;
@@ -26,6 +26,7 @@ header {
   width: 25%;
   background-color: white;
   padding-left: 20px;
+}
   
   
  .card {
@@ -44,7 +45,7 @@ header {
   background-color: deeppink;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 @media screen and (max-width: 800px) {
@@ -56,29 +57,7 @@ header {
 
 
 
-h1 {
-  color: white;
-  text-align:center;">centered heading
-}
-h2 {
-  color: white
-  text-align:center;">centered heading
-}
-p {
-  color: white;
-}
 
-
-
-
-.box1 {
-  background-color: pink;
-  color: white;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
-  float; right;
-}
 
 
 
