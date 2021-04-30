@@ -12,7 +12,7 @@ body {
   background-color: deeppink;
   padding: 30px;
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
   color: white;
 }
 
@@ -33,6 +33,7 @@ body {
   background-color: pink;
   padding: 20px;
   margin-top: 20px;
+  border: black;
 }
 
 .row:after {
@@ -44,8 +45,9 @@ body {
 .footer {
   background-color: deeppink;
   padding: 10px;
+  margin-top 20px;
   text-align: center;
-  color: black;
+  color: white;
 }
 
 @media screen and (max-width: 800px) {
