@@ -1,4 +1,13 @@
 
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: white;
+}
+
 header {
   background-color: deeppink;
   padding: 30px;
@@ -7,23 +16,23 @@ header {
   color: white;
 }
 
-article {
+.leftcolumn {   
   float: left;
-  width: 70%;
-  background: hotpink;
-  height: 300px;
-  padding: 20px;
+  width: 75%;
 }
 
-
-article {
+.rightcolumn {
   float: left;
+  width: 25%;
+  background-color: white;
+  padding-left: 20px;
+  
+  
+  .card {
+  background-color: pink;
   padding: 20px;
-  width: 30%;
-  height: 300px
-  background-color: hotpink;
+  margin-top: 20px;
 }
-
 
 section::after {
   content: "";
@@ -38,11 +47,12 @@ footer {
   color: white;
 }
 
-@media (max-width: 600px) {
-  nav, article {
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
     width: 100%;
-    height: auto;
+    padding: 0;
   }
+
 
 
 
