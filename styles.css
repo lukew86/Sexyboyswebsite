@@ -8,11 +8,11 @@ body {
   background: white;
 }
 
-header {
+.header {
   background-color: deeppink;
   padding: 30px;
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
   color: white;
 }
 
@@ -26,23 +26,27 @@ header {
   width: 25%;
   background-color: white;
   padding-left: 20px;
+}
   
   
-  .card {
+ .card {
   background-color: pink;
   padding: 20px;
   margin-top: 20px;
+  margin-bottom: 20px;
+  border: black;
 }
 
-section::after {
+.row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-footer {
+.footer {
   background-color: deeppink;
   padding: 10px;
+  margin-top 20px;
   text-align: center;
   color: white;
 }
@@ -56,29 +60,7 @@ footer {
 
 
 
-h1 {
-  color: white;
-  text-align:center;">centered heading
-}
-h2 {
-  color: white
-  text-align:center;">centered heading
-}
-p {
-  color: white;
-}
 
-
-
-
-.box1 {
-  background-color: pink;
-  color: white;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
-  float; right;
-}
 
 
 
