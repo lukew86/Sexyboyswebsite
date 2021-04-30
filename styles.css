@@ -28,19 +28,19 @@ header {
   padding-left: 20px;
   
   
-  .card {
+ .card {
   background-color: pink;
   padding: 20px;
   margin-top: 20px;
 }
 
-section::after {
+.row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-footer {
+.footer {
   background-color: deeppink;
   padding: 10px;
   text-align: center;
