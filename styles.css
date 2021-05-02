@@ -34,7 +34,7 @@ body {
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border: black;
+  border: 5px black;
 }
 
 .row:after {
